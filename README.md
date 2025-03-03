@@ -25,6 +25,11 @@ Steganography-Exercise
 ## Prerequisites
 - Python 3.x installed on your system.
 - Required Python library: `Pillow`.
+- Prerequisites
+- Install GIT
+- Recommended: Use Visual Studio Code
+Visual Studio Code (VS Code) is a lightweight and powerful code editor for editing and running the project.
+Download VS Code from Visual Studio Code Official Website.
 
 Install the library using:
 ```bash

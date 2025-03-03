@@ -16,7 +16,7 @@ Steganography-Exercise
 │   ├── encode_image.py      # Script to hide a message in an image
 │   ├── decode_image.py      # Script to extract the hidden message
 ├── assets
-│   ├── input_image.png      # Sample input image
+│   ├── car.png              # Sample input image
 │   ├── secret.txt           # File containing the secret message
 │   ├── encoded_image.png    # Encoded image (generated after encoding)
 ├── .gitignore               # Ignore unnecessary files

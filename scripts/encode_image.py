@@ -31,9 +31,9 @@ def encode_image(image_path, message_path, output_path):
     print(f"Message successfully encoded in {output_path}")
 
 # Paths
-image_path = "../assets/input_image.png"
+image_path = "../assets/emas7.jpg"
 message_path = "../assets/secret.txt"
-output_path = "../assets/encoded_image.png"
+output_path = "../assets/encoded_image.jpg"
 
 # Check if files exist
 if os.path.exists(image_path) and os.path.exists(message_path):

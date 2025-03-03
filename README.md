@@ -34,7 +34,7 @@ pip install Pillow
 ## Setup Instructions
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/Steganography-Exercise.git
+   git clone https://github.com/pislisSniflis/steganography.git
    cd Steganography-Exercise
    ```
 

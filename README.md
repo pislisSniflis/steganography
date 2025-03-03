@@ -1,4 +1,6 @@
 # Steganography Exercise for Forensic Students
+DFS40153 / Digital Forensic
+Politeknik Ungku Omar
 
 This repository provides a hands-on exercise for forensic students to understand and practice steganography by hiding and extracting information within graphic files.
 

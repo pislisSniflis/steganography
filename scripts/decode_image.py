@@ -13,18 +13,25 @@ def decode_image(image_path):
             for i in range(3):  # RGB channels
                 binary_message += str(pixel[i] & 1)
 
+    # Debug: Print the first 100 bits of the binary message
+    print("Extracted binary message (first 100 bits):", binary_message[:100])
+
     # Convert binary message to text
     message = ''
     for i in range(0, len(binary_message), 8):
         byte = binary_message[i:i + 8]
         if byte == '11111111':  # End of message marker
             break
-        message += chr(int(byte, 2))
+        try:
+            message += chr(int(byte, 2))
+        except ValueError:
+            print(f"Invalid byte encountered: {byte}")
+            break
 
     return message
 
 # Path
-encoded_image_path = "../assets/emas7.jpg"
+encoded_image_path = "../assets/encoded_image.png"
 
 # Check if the encoded image exists
 if os.path.exists(encoded_image_path):

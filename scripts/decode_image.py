@@ -24,7 +24,7 @@ def decode_image(image_path):
     return message
 
 # Path
-encoded_image_path = "../assets/encoded_image.png"
+encoded_image_path = "../assets/emas7.jpg"
 
 # Check if the encoded image exists
 if os.path.exists(encoded_image_path):
